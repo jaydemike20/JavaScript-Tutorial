@@ -1,0 +1,41 @@
+/* JAVASCRIPT */
+
+1.	Variables
+2.	Datatypes
+3.	Objects
+4.	Arrays
+5.	Functions
+6.	Loops
+7.	Conditions
+8.	DOM Methods
+
+
+========================= Variables =================================
+* var
+* let
+* const
+
+========================= Data Types =================================
+* number
+* objects
+* array
+* string
+* boolean
+* null
+
+========================== Objects ==================================
+Syntax: 	<variable> <identifier> = {<key> : <value>};
+Example: 	const sampleObj = {name : jayde};
+
+-to display an object
+console.log("SampleObject.age");
+s
+
+
+-to delete a properties
+delete SampleObject.course;
+
+
+
+
+
