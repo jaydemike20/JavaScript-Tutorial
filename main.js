@@ -12,3 +12,9 @@ document.write("Gender: ",SampleObject["gender"]);
 // delete object properties
 delete SampleObject.course
 
+
+for (let x in SampleObject) {
+
+    document.write("<br>", SampleObject[x])
+    
+}

@@ -35,6 +35,9 @@ s
 -to delete a properties
 delete SampleObject.course;
 
+========================== Array =========================================
+Syntax: <variable> <identifier> = ["", "",...]
+
 
 
 
