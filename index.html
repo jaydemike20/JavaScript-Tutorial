@@ -7,22 +7,14 @@
     <title>JavaScript Tutorial</title>
 </head>
 <body>
-    <h2>My First JavaScript</h2>
 
-    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
-    Click me to display Date and Time</button>
+    <!-- dom methods -->
+    <input type="text" name="name" id="name" class="name"
+    placeholder="Enter your name">
+    <input type="text" name="age" id="age" class="age" placeholder="Enter your age">
+    <input type="submit" name="submit" id="submit" value="Click Me!" onclick="alertDetails()">
 
-    <p id="demo"></p>
-
-    <hr />
-
-    <h2>My Second JavaScript</h2>
-    <button onclick="document.getElementById('myImage').src='asset/pic_bulbon.gif'">Turn on the light</button>
-
-    <img id="myImage" src="asset/pic_bulboff.gif" style="width:100px">
-
-    <button onclick="document.getElementById('myImage').src='asset/pic_bulboff.gif'">Turn off the light</button>
-
+    <script type="text/javascript" src="index.js"></script>
 
 </body>
 </html>

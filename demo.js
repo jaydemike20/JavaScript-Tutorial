@@ -114,12 +114,31 @@ for (let i = 0; i < 10; i++) {
 
 // Conditions
 
-let name = 'JaydeMike';
+    // if/else statement
+        
 
-if (typeof name === 'string') {
-    console.log('YES');
-} else {
-    console.log('No');
-}
+    let name = 'JaydeMike';
+
+    if (typeof name === 'string') {
+        console.log('YES');
+    } else {
+        console.log('No');
+    }
+
+    // switch statement
+
+    let age = 9;
+
+    switch(age) {
+        case 10:
+            console.log('Ten');
+            break;
+        case 9:
+            console.log('Nine');
+            break;
+        default:
+            console.log('None');
+    }
 
 
+// DOM METHODS (12:46)
