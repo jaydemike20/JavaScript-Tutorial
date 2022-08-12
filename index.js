@@ -26,3 +26,20 @@ const alertDetails = () => {
     `
     )
 }
+
+
+const submitButton = document.querySelector('#submit1')
+const priceinput = document.querySelectorAll('.price')
+const totalamount = document.querySelector('#total')
+
+submitButton.addEventListener('click', (e) => {
+    let sum = 0;
+
+    for (let i = 0; i < priceinput.length; i++) {
+        sum += Number(priceinput[i].value)
+    }
+
+    totalamount.value = sum
+
+
+}) 

@@ -39,6 +39,18 @@ delete SampleObject.course;
 Syntax: <variable> <identifier> = ["", "",...]
 
 
+====================== DOM ================================================
+
+document.getElementbyId()
+document.querySelector("./#")
+document.querySelectorAll()
+
+
+Number(<variable>.value)
+
+
+============================= object function ==============================
+
 
 
 
